@@ -1,0 +1,7 @@
+version: '2'
+services:
+
+  timemachine:
+    image: arifogel:timemachine
+    volumes:
+      - "./data:/data"
